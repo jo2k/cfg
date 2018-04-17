@@ -1,0 +1,13 @@
+[alias]
+    last = log -1 HEAD
+    one = log --oneline
+    adog = log --all --decorate --oneline --graph
+    ado = log --all --decorate --oneline
+    st = status
+    br = branch
+    co = checkout
+    unstage = reset HEAD --
+    dwd = checkout --
+    settings = config --global --list
+    ci = commit
+    rlog = reflog
