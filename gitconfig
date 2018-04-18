@@ -10,3 +10,4 @@
     unstage = reset HEAD --
     settings = config --global --list
     rlog = reflog
+    do-update = update-git-for-windows
